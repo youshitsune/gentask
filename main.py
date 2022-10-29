@@ -6,6 +6,7 @@ from kivymd.uix.list import TwoLineAvatarIconListItem, ILeftBodyTouch
 from kivymd.uix.selectioncontrol import MDCheckbox
 from datetime import datetime
 from database import Database
+from kivy.utils import platform
 
 if platform == "android":
     from android.permissions import request_permissions, Permission
